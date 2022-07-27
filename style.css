@@ -1,0 +1,33 @@
+div {
+    display: flex;
+    border: 5px solid #000000;
+    margin: 50px;
+}
+div img {
+    width: 300px;
+    height: 300px;
+}
+
+#one {
+    background-color: blue;
+}
+
+#two {
+    background-color: rgb(0, 255, 242);
+    justify-content: space-around;
+}
+
+#three {
+    background-color: rgb(152, 11, 11);
+    justify-content: space-between;
+}
+
+#four {
+    background-color: #ffff00;
+    justify-content: space-evenly;
+}
+
+#five {
+    background-color: #7d247e;
+    flex-direction: column;
+}
